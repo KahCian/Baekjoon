@@ -2,7 +2,6 @@ def solving(num) :
     num_list = []
     for i in range(len(num)):
         num_list.append(int(num[i]))
-    
     if sum(num_list) % 3 == 0 :
         if (0 not in num_list) :
             return (-1)
@@ -16,9 +15,6 @@ def solving(num) :
             return int(''.join(map(str, num_list)))
     else :
         return (-1)
-
-
-
 
 if __name__ == '__main__' :
     num = input()
